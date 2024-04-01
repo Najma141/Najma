@@ -14,21 +14,21 @@
     width: 15px;
 }
 ::-webkit-scrollbar-track{
-background: hsl(0, 0%, 100%);
+background: #AE8381;
 }
 ::-webkit-scrollbar-thumb{
-background: #ffc0cb;
+background: #294122;
 border-radius: 15px;
 }
 :root {
     /**
    * colors
    */
-    --raw-seinna: hsl(0, 89%, 76%);
-    --sizzling-sunrise: hsl(0, 89%, 76%);
+    --raw-seinna: rgb(255, 255, 255);
+    --sizzling-sunrise: #AE8381;
     --scarlet: hsl(110, 75%, 2%);
-    --black: hsl(0, 89%, 76%);
-    --white: hsl(0, 0%, 100%);
+    --black: #ffffff;
+    --white: #000000;
     /**
    * typography
    */
@@ -343,13 +343,13 @@ body.active {
 .theme-btn {
     padding: 4px;
     width: 48px;
-    background: var(--bg-primary);
+    background: var(--black);
     border-radius: 100px;
     transition: var(--transition-1);
 }
 
 .header.active .theme-btn {
-    background: var(--bg-secondary);
+    background: var(--black);
 }
 
 .theme-btn .icon {
