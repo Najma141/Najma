@@ -64,22 +64,22 @@ border-radius: 15px;
 \*-----------------------------------*/
 
 body.dark_theme {
-    --bg-primary: hsl(0, 74%, 79%);
-    --bg-secondary: hsl(0, 76%, 87%);
-    --color-primary: hsl(0, 0%, 100%);
-    --color-secondary: hsl(0, 0%, 100%);
-    --card-shadow: hsl(0, 0%, 100%);
-    --input-bg: hsl(0, 0%, 93%);
+    --bg-primary: #AE8381;
+    --bg-secondary: #AE8381;
+    --color-primary: #294122;
+    --color-secondary: #294122;
+    --card-shadow: #ffffff;
+    --input-bg: #ffffff;
     --shadow-1: 10px 10px 40px var(--card-shadow);
 }
 
 body.light_theme {
     --bg-primary: hsl(0, 0%, 100%);
     --bg-secondary: hsl(0, 0%, 100%);
-    --color-primary: hsl(0, 74%, 79%);
-    --color-secondary: hsl(0, 74%, 79%);
-    --card-shadow: hsl(0, 63%, 66%);
-    --input-bg: hsl(0, 0%, 93%);
+    --color-primary: #AE8381;
+    --color-secondary: #AE8381;
+    --card-shadow: #ffffff;
+    --input-bg: #ffffff;
     --shadow-1: 10px 10px 40px var(--card-shadow);
 }
 
