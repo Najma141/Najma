@@ -26,7 +26,7 @@ border-radius: 15px;
    */
     --raw-seinna: rgb(255, 255, 255);
     --sizzling-sunrise: #AE8381;
-    --scarlet: hsl(110, 75%, 2%);
+    --scarlet: hsl(0, 94%, 33%);
     --black: #ffffff;
     --white: #000000;
     /**
@@ -223,7 +223,7 @@ body.active {
 }
 
 .btn-secondary {
-    background: hsl(0, 70%, 68%);
+    background: #AE8381;
     border-color: var(--raw-seinna);
     color: var(--black);
 }
@@ -555,13 +555,13 @@ main {
 
 .stats-card .card-title {
     width: calc(100% - 95px);
-    color: var(--raw-seinna);
+    color: var(--white);
     text-align: center;
 }
 
 .stats-card .card-title strong {
     display: block;
-    color: var(--color-primary);
+    color: var(--white);
     font-size: initial;
     line-height: 1.3;
     margin-top: 5px;
@@ -925,7 +925,7 @@ textarea.input-field {
 
 .copyright a {
     display: inline-block;
-    color: var(--raw-seinna);
+    color: var(--color-primary);
 }
 
 /*-----------------------------------*\
@@ -1133,10 +1133,10 @@ textarea.input-field {
     
     }
     .hero-content {
-        --color-primary: var(--white);
+        --color-primary: var(--black);
         position: absolute;
         top: 50%;
-        filter: drop-shadow(2px 4px 10px var(--black));
+        filter: drop-shadow(2px 4px 10px var(--white));
     }
     .hero .btn-primary:is(:hover, :focus) {
         color: hsl(0, 0%, 12%);
