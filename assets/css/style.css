@@ -74,8 +74,8 @@ body.dark_theme {
 }
 
 body.light_theme {
-    --bg-primary: hsl(0, 0%, 100%);
-    --bg-secondary: hsl(0, 0%, 100%);
+    --bg-primary: #294122;
+    --bg-secondary: #294122;
     --color-primary: #AE8381;
     --color-secondary: #AE8381;
     --card-shadow: #ffffff;
